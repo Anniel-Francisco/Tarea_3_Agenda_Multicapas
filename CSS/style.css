@@ -1,0 +1,114 @@
+*{
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+}
+
+body{
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         background-color: #eeeeee;
+}
+
+
+.agenda{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          width: 100%;
+          min-height: 90vh;
+}
+
+.agenda h1 {
+          background-color: black;
+          color: white;
+          padding: 5px;
+           width: 100%;text-align: center;
+}
+
+.contact-form {
+   
+                  
+          margin-top: 10px;
+          max-height: 300px;
+          width: 70%;
+            text-align: center;
+}
+
+.contact-form  h2 {
+          margin: 10px;
+}
+
+.contact-form input{
+          
+          width: 100%;
+          font-size: 15px;
+          padding: 10px; 
+          border: none;
+          margin-bottom: 10px;
+          outline: none;
+          border-radius: 30px;
+
+          
+}
+
+.contact-form input:focus{
+          box-shadow: 0 0 5px 1px #ccc;
+}
+
+.contact-form button{
+          width: 100%;
+          padding: 10px; 
+          margin-bottom: 10px;
+          border: none;
+
+          color: white;
+          background-color: black;
+          transition:  all ease .5s;
+       
+          text-transform: uppercase;
+          font-weight: 800;
+          border-radius: 30px;
+}
+
+.contact-form button{
+          cursor: pointer;
+}
+
+
+.contact-list{
+       
+          overflow-y: scroll;
+border: 1px solid #ccc;
+          padding: 10px;
+        max-height: 300px;
+        width: 70%;
+          text-align: center;
+
+}
+
+.contact-list ul{
+          list-style: none;
+}
+
+.contact-list li{
+          margin-top: 10px;
+          padding: 15px;
+          display: flex;
+          align-items: center;
+          font-size: 20px;
+          justify-content: center;
+          
+          
+}
+
+.contact-list img {
+          width: 20px;
+
+}
+
+
+
+.contact-list li:hover{
+          background-color: #ccc;
+}
